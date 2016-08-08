@@ -1,1 +1,4 @@
-﻿<Properties StartupItem="iOS/SudoskApp.iOS.csproj" />
+﻿<Properties StartupItem="Droid/SudoskApp.Droid.csproj">
+  <MonoDevelop.Ide.ItemProperties.SudoskApp.iOS PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.SudoskApp.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

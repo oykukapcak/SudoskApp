@@ -8,7 +8,7 @@ namespace SudoskApp
 		{
 			InitializeComponent();
 
-			MainPage = new SudoskAppPage();
+			MainPage = new NavigationPage(new FirstPage());
 		}
 
 		protected override void OnStart()
