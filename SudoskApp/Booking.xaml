@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SudoskApp.Booking">
+	<ContentPage.Content>
+		<StackLayout>
+			<Image></Image>
+			<Label Text="Name"></Label>
+			<Label Text="Category"></Label>
+			<Label Text="Description"></Label>
+			<Label Text="Choose Date"></Label>
+			<StackLayout Orientation="Horizontal">
+				<DatePicker Format="dd-mm-yyyy" ></DatePicker>
+				<DatePicker Format="dd-mm-yyyy" ></DatePicker>
+			</StackLayout>
+			<Label Text="Choose event"></Label>
+			<Picker x:Name="picker" Title="Events"></Picker>
+			<Button Text="Send Request"></Button>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

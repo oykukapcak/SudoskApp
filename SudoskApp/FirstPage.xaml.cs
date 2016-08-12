@@ -9,7 +9,12 @@ namespace SudoskApp
 			InitializeComponent();
 		}
 
-		void onClicked(object sender, System.EventArgs e)
+		void onLoginClicked(object sender, System.EventArgs e)
+		{
+			Navigation.PushAsync(new Menu());
+		}
+
+		void onSignupClicked(object sender, System.EventArgs e)
 		{
 			Navigation.PushAsync(new CreateAccount());
 		}

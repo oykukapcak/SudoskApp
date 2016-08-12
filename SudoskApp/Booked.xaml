@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SudoskApp.Booked">
+	<ContentPage.Content>
+		<ListView>
+		    <ListView.ItemTemplate>
+		      <DataTemplate>
+		        <ViewCell>
+		          <StackLayout Orientation = "Horizontal" >
+					<Image></Image>
+
+					<StackLayout Orientation="Vertical">
+		              <Label Text = "Name" ></Label>
+
+					  <Label Text="Dates"></Label>
+		              <Label Text = "Event" ></Label>
+
+					  <Label Text="Member Name (who borrowed)"></Label>
+		              <Button Text = "Delivered"></Button>
+
+					</StackLayout>
+
+				  </StackLayout>
+
+				</ViewCell>
+
+			  </DataTemplate>
+
+			</ListView.ItemTemplate>
+		 </ListView>
+	</ContentPage.Content>
+</ContentPage>
