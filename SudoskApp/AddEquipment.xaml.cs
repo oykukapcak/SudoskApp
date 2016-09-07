@@ -11,6 +11,11 @@ namespace SudoskApp
 		{
 			InitializeComponent();
 		}
+
+		async void OnClicked(object sender, System.EventArgs e)
+		{
+			await App.AppService.AddItem(name.ToString(), category.ToString(), description.ToString());
+		}
 	}
 }
 

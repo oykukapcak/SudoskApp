@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SudoskApp.Confirmed">
+	<ContentPage.Content>
+		<ListView x:Name="list" ItemSelected="Handle_ItemSelected">
+		    <ListView.ItemTemplate>
+		      <DataTemplate>
+		        <ViewCell>
+		          <StackLayout Orientation="Horizontal">
+		            <Image></Image>
+		            <StackLayout Orientation="Vertical">
+						<Label Text="{Binding Name}"></Label>
+						<Label Text="{Binding BeginDate}"></Label>
+						<Label Text="{Binding EndDate}"></Label>
+						<Label Text="{Binding EventId}"></Label>		
+						<Label Text="{Binding UserId}"></Label>
+		              <Button Text="Book"></Button>
+		            </StackLayout>
+		          </StackLayout>
+		        </ViewCell>
+		      </DataTemplate>
+		    </ListView.ItemTemplate>
+		</ListView>
+	</ContentPage.Content>
+</ContentPage>

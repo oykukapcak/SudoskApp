@@ -11,7 +11,11 @@ namespace SudoskApp
 
 		void onLoginClicked(object sender, System.EventArgs e)
 		{
-			Navigation.PushAsync(new Menu());
+			//user authentication için kullanılacak
+			var email_input = email.Text;
+			var password_input = password.Text;
+			//-----//
+			Application.Current.MainPage = new NavigationPage(new Menu());
 		}
 
 		void onSignupClicked(object sender, System.EventArgs e)

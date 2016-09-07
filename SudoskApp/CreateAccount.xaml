@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SudoskApp.CreateAccount">
 	<StackLayout>
-		<Entry Text="Your name"></Entry>
-		<Entry Text="Your e-mail"></Entry>
-		<Button Text="Sign up" Clicked="onClicked"></Button>
+		<Entry x:Name="name" Text="Your name"></Entry>
+		<Entry x:Name="surname" Text="Your name"></Entry>
+		<Entry x:Name="email" Text="Your e-mail"></Entry>
+		<Button Text="Sign up" Clicked="OnClicked"></Button>
 	</StackLayout>
 </ContentPage>

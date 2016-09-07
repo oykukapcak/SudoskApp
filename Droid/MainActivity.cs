@@ -7,6 +7,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Xamarin.Forms.Themes;
 
 namespace SudoskApp.Droid
 {
@@ -23,6 +24,10 @@ namespace SudoskApp.Droid
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 
 			LoadApplication(new App());
+
+			var x = typeof(Xamarin.Forms.Themes.DarkThemeResources);
+			//x = typeof(Xamarin.Forms.Themes.LightThemeResources);
+			x = typeof(Xamarin.Forms.Themes.Android.UnderlineEffect);
 		}
 	}
 }

@@ -12,9 +12,9 @@ namespace SudoskApp
 			InitializeComponent();
 		}
 
-		void onClicked(object sender, System.EventArgs e)
+		async void OnClicked(object sender, System.EventArgs e)
 		{
-			//TODO: send request to admin to confirm if it is a member
+			await App.AppService.AddMemberRequest(name.ToString(), surname.ToString(), email.ToString());
 		}
 	}
 }

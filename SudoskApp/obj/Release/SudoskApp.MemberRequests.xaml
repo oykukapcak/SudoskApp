@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SudoskApp.MemberRequests">
+	<ContentPage.Content>
+		<ListView x:Name="list">
+		    <ListView.ItemTemplate>
+		      <DataTemplate>
+		        <ViewCell>
+		          <StackLayout Orientation="Horizontal">
+		            <StackLayout Orientation="Vertical">
+		              <Label Text="Name Surname"></Label>
+		              <Label x:Name="email_address"  Text="E-mail"></Label>
+		            </StackLayout>
+		            <Button Text="Yes" Clicked="OnYesClicked"></Button>
+		            <Button Text="No" Clicked="OnNoClicked"></Button>
+		          </StackLayout>
+		        </ViewCell>
+		      </DataTemplate>
+		    </ListView.ItemTemplate>
+		  </ListView>
+	</ContentPage.Content>
+</ContentPage>

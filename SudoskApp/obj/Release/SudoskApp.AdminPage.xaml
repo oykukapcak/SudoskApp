@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SudoskApp.AdminPage">
+	<ContentPage.Content>
+		<StackLayout>
+			<Button Text="Add Category" Clicked="OnCategoryClicked"></Button>
+			<Button Text="Add Equipment" Clicked="OnEquipmentClicked"></Button>
+			<Button Text="Member Requests" Clicked="OnMemberReqsClicked"></Button>
+			<Button Text="Booked" Clicked="OnBookedClicked"></Button>
+			<Button Text="Confirmed" Clicked="OnConfirmedClicked"></Button>
+			<Button Text="Requested" Clicked="OnRequestedClicked"></Button>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

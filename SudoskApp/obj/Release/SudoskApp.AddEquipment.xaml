@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SudoskApp.AddEquipment">
+	<ContentPage.Content>
+		<StackLayout>
+		    <Entry x:Name="name" Placeholder="Name"></Entry>
+		    <Entry x:Name="description" Placeholder="Description"></Entry>
+			<Entry x:Name="category" Placeholder="Category"></Entry>
+		   <!-- <Picker x:Name="category" Title="Category"></Picker>-->
+		    <Button Text="Add photo"></Button>
+		    <Image></Image>
+		    <Button Text="Add equipment" Clicked="OnClicked"></Button>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

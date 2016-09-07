@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SudoskApp.ItemBrowsePage">
+	<ContentPage.Content>
+		<StackLayout BackgroundColor="#7F5D5A"> 
+		    <Label Text="Category Name"></Label>
+			<StackLayout BackgroundColor="#7F5D5A" Orientation="Horizontal">
+			    <Label Text="From:"></Label>
+			    <DatePicker x:Name="beginDate"></DatePicker>
+			    <Label Text="To:"></Label>
+			    <DatePicker x:Name="endDate"></DatePicker>
+				<Button Text="Search" BackgroundColor="#7F3A34" TextColor="#FFBAB4" Clicked="OnSearchClicked"></Button>
+			</StackLayout>
+		    <ListView x:Name="list" ItemSelected="OnItemSelected">
+				<ListView.ItemTemplate>
+			      <DataTemplate>
+					<ViewCell>
+						<StackLayout BackgroundColor="#CC5D53">
+							<Label Text="{Binding Name}" TextColor="#FFBAB4" 
+								VerticalOptions="CenterAndExpand"
+								FontSize="20"/>
+							<Image></Image>
+						</StackLayout>
+					</ViewCell>
+			      </DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+	  </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

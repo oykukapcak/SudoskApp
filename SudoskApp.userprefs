@@ -1,4 +1,26 @@
-﻿<Properties StartupItem="Droid/SudoskApp.Droid.csproj">
+﻿<Properties StartupItem="Droid/SudoskApp.Droid.csproj" GitUserInfo="UsingGIT" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.SudoskApp.iOS PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SudoskApp/Requested.xaml">
+    <Files>
+      <File FileName="SudoskApp/RestService.cs" Line="147" Column="1" />
+      <File FileName="SudoskApp/Requested.xaml.cs" Line="19" Column="32" />
+      <File FileName="SudoskApp/Requested.xaml" Line="10" Column="14" />
+      <File FileName="SudoskApp/Booking.xaml.cs" Line="44" Column="26" />
+      <File FileName="SudoskApp/CategoryBrowsePage.xaml" Line="1" Column="1" />
+      <File FileName="SudoskApp/Confirmed.xaml" Line="15" Column="29" />
+      <File FileName="SudoskApp/CategoryBrowsePage.xaml.cs" Line="26" Column="78" />
+      <File FileName="SudoskApp/obj/Release/SudoskApp.Menu.xaml.g.cs" Line="17" Column="68" />
+      <File FileName="SudoskApp/AddCategory.xaml.cs" Line="17" Column="50" />
+      <File FileName="SudoskApp/Booked.xaml.cs" Line="26" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/oykukapcak/Projects/SudoskApp/SudoskApp/Requested.xaml.cs" line="39" column="1" />
+      <Breakpoint file="/Users/oykukapcak/Projects/SudoskApp/SudoskApp/Requested.xaml.cs" line="40" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.SudoskApp.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
 </Properties>

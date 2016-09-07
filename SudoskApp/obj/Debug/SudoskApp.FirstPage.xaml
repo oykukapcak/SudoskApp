@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:SudoskApp" x:Class="SudoskApp.FirstPage">
-	<StackLayout>
-		<Image></Image>
-		<Entry Placeholder="E-mail"></Entry>
-		<Entry Placeholder="Password"></Entry>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:SudoskApp" x:Class="SudoskApp.FirstPage"
+		BackgroundImage="drawable/mountain.jpg" Title="SUDOSK">
+	<StackLayout VerticalOptions="Center">
+		<Entry x:Name="email" Placeholder="E-mail"></Entry>
+		<Entry x:Name="password" Placeholder="Password" IsPassword="true"></Entry>
 		<Label Text="Forgot password?"></Label>
-		<Button Text="Log in" Clicked="onLoginClicked"></Button>
-		<Button Text="Create account" Clicked="onSignupClicked"></Button>
+		<Button Text="Log in" Clicked="onLoginClicked" BackgroundColor="#2F7F62"></Button>
+		<Button Text="Create account" Clicked="onSignupClicked" BackgroundColor="#57727F" BorderColor="#2F7F62"></Button>
 	</StackLayout>
 </ContentPage>

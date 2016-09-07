@@ -4,10 +4,11 @@ namespace SudoskApp
 {
 	public partial class App : Application
 	{
+		public static RestService AppService = new RestService();
+		public static int user_id = 1;
 		public App()
 		{
 			InitializeComponent();
-
 			MainPage = new NavigationPage(new FirstPage());
 		}
 
